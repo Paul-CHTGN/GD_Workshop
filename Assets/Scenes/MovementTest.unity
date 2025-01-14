@@ -221,7 +221,7 @@ Transform:
   m_GameObject: {fileID: 159759339}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.38, y: 1.43, z: 7.81}
+  m_LocalPosition: {x: 7.38, y: 0.92, z: 7.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -606,8 +606,8 @@ MonoBehaviour:
   runSpeed: 12
   jumpPower: 7
   gravity: 10
-  lookSpeed: 20
-  lookXLimit: 45
+  lookSpeed: 10
+  lookXLimit: 360
   defaultHeight: 2
   crouchHeight: 1
   crouchSpeed: 3
@@ -736,7 +736,7 @@ Transform:
   m_GameObject: {fileID: 1067558297}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.97, y: 1.43, z: 10.98}
+  m_LocalPosition: {x: 3.97, y: 0.92, z: 10.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -841,7 +841,7 @@ Transform:
   m_GameObject: {fileID: 1522860754}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.52, y: 1.43, z: 7.81}
+  m_LocalPosition: {x: -0.52, y: 0.92, z: 7.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
