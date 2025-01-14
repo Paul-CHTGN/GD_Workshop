@@ -8,7 +8,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 
-public class PlayerMovement : MonoBehaviour
+public class Movement : MonoBehaviour
 
 {
 
