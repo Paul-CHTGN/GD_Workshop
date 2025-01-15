@@ -42,7 +42,7 @@ public class Movement : MonoBehaviour
 
 
 
-    private bool canMove = true;
+    public bool canMove = true;
 
 
 
