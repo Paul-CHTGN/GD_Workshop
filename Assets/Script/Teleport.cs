@@ -8,6 +8,8 @@ public class Teleport: MonoBehaviour
     private bool isInRange = false;
     public Transform TeleportePosition;
     public Movement player;
+    public bool isVictoryDoor = false;
+    public GameObject PanelVictory;
 
 
     void Start()
@@ -19,7 +21,7 @@ public class Teleport: MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.G)) {
+        if (Input.GetKeyDown(KeyCode.E)) {
             player.enabled = true;
 
         }
@@ -28,6 +30,12 @@ public class Teleport: MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         player.enabled = false;
+        if (isVictoryDoor)
+        {
+            PanelVictory.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
         player.transform.position = TeleportePosition.position;
 
         Debug.Log("OnTriggerEnter");
